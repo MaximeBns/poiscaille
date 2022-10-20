@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint src/equilibrage.js",
+    "lint:fix": "eslint src/equilibrage.js --fix",
     "start:dev": "nodemon",
     "test": "ts-jest",
     "build": "rimraf ./build && tsc"
@@ -16,6 +18,9 @@
     "@types/jest": "^29.1.2",
     "@types/node": "^18.11.0",
     "babel": "^6.23.0",
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "nodemon": "^2.0.20",
     "rimraf": "^3.0.2",
     "ts-jest": "^29.0.3",
