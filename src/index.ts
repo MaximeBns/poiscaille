@@ -1,4 +1,4 @@
-import {trouverEquilibre} from "./trouverEquilibre";
+import {trouverEquilibre} from "./trouverEquilibre.js";
 
 const listeSemaine: Semaine[] = [{
     date: 20220404,
