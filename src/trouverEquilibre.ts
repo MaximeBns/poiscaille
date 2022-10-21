@@ -1,4 +1,4 @@
-import {calculerDifferenceAReporter, equilibrerPointRelais, getMoyenneCasier, équilibrerSemaine} from "./equilibrage";
+import {calculerDifferenceAReporter, equilibrerPointRelais, getMoyenneCasier, équilibrerSemaine} from "./equilibrage.js";
 
 export function trouverEquilibre(listeSemaine: Semaine[]) {
     const moyenneCasier = getMoyenneCasier(listeSemaine);
