@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "npx eslint src/equilibrage.ts",
     "lint:fix": "npx eslint src/equilibrage.ts --fix",
-    "start:dev": "nodemon",
+    "start": "node build/index.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "build": "rimraf ./build && tsc"
   },
